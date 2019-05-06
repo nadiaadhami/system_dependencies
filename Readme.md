@@ -26,9 +26,13 @@ Likewise, a component, not explicitly installed, can be explicitly removed in re
 ## Input
 
 The input will contain a sequence of commands (as described below), each on a separate line containing no more than eighty characters. 
+
 Item names are case sensitive, and each is no longer than ten characters. 
+
 The command names (DEPEND, INSTALL, REMOVE and LIST) always appear in uppercase starting in column one, and item names are separated from the command name and each other by one or more spaces. 
+
 All appropriate DEPEND commands will appear before the occurrence of any INSTALL dependencies. 
+
 The end of the input is marked by a line containing only the word END. 
 
 ```sh
