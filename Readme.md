@@ -1,6 +1,7 @@
 
 # System Dependencies
 
+(my interview question at Maker Studios)
  
 Components of computer systems often have dependencies--other components that must be installed before they will function properly. 
 These dependencies are frequently shared by multiple components. 
